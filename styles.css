@@ -1,0 +1,474 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  header {
+    background-color: #006d77;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* 🟢 This centers the menu horizontally */
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a.active,
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero-section {
+    background-color: #edf6f9;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .hero-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+  }
+  
+  .btn {
+    background-color: #00b4d8;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 3rem;
+  }
+ /* ABOUT PAGE STYLES */
+.about-section {
+    background-color: #fff;
+    padding: 4rem 0;
+  }
+  
+  .about-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about-section .lead {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .about-grid h3 {
+    font-size: 1.3rem;
+    color: #006d77;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-grid p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .quote-box {
+    background-color: #edf6f9;
+    padding: 2rem;
+    margin: 4rem auto 2rem auto;
+    max-width: 700px;
+    text-align: center;
+    border-left: 6px solid #00b4d8;
+    border-radius: 6px;
+  }
+  
+  .quote-box blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .quote-box cite {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .cta-box {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .cta-box h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cta-box p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+   /* PROGRAMS PAGE */
+.programs-section {
+    background-color: #fff;
+    padding: 4rem 0;
+  }
+  
+  .programs-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .programs-section .lead {
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+  }
+  
+  .program-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .program-card {
+    background-color: #edf6f9;
+    border-left: 5px solid #00b4d8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+  }
+  
+  .program-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .program-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #023047;
+  }
+  
+  .program-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .learning-details {
+    margin-top: 4rem;
+    padding: 2rem 1rem;
+    background-color: #f8f9fa;
+    border-top: 2px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .learning-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #006d77;
+  }
+  
+  .learning-details ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .learning-details li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+  }
+  /* CERTIFICATION PAGE */
+.cert-section {
+    background-color: #fff;
+    padding: 4rem 0;
+  }
+  
+  .cert-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cert-section .lead {
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+  }
+  
+  .cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .cert-card {
+    background-color: #e0fbfc;
+    border-left: 5px solid #00b4d8;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .cert-card h3 {
+    font-size: 1.2rem;
+    color: #006d77;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cert-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .cert-process {
+    background-color: #f8f9fa;
+    margin-top: 4rem;
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .cert-process h3 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: #023047;
+  }
+  
+  .cert-process ol {
+    font-size: 1rem;
+    line-height: 1.8;
+    padding-left: 1.5rem;
+  }
+  /* CONTACT PAGE */
+.contact-section {
+    background-color: #fff;
+    padding: 4rem 0;
+  }
+  
+  .contact-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-section .lead {
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+  }
+  
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 3rem;
+    padding: 0 1rem;
+  }
+  
+  .contact-info h3,
+  .contact-form h3 {
+    font-size: 1.8rem;
+    color: #023047;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .contact-info ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact-info .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .contact-form button {
+    background-color: #00b4d8;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #006d77;
+  }
+  
+  .newsletter {
+    background-color: #edf6f9;
+    padding: 2rem 1rem;
+    margin-top: 4rem;
+    border-radius: 6px;
+  }
+  
+  .newsletter-form input {
+    padding: 1rem;
+    width: 70%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-right: 1rem;
+  }
+  
+  .newsletter-form button {
+    background-color: #00b4d8;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #006d77;
+  }
+  
+  .cta-box {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  /* HOME PAGE STYLES */
+.hero {
+    background-color: #006d77;
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .mission, .cta {
+    background-color: #edf6f9;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .mission h2, .cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .highlights {
+    padding: 3rem 2rem;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    background-color: #e0fbfc;
+    padding: 1.5rem;
+    border-left: 5px solid #00b4d8;
+    border-radius: 8px;
+  }
+  
+  .impact {
+    background-color: #fff;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .stats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .stat h3 {
+    font-size: 2.5rem;
+    color: #00b4d8;
+  }
+  
+  .stat p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn {
+    background-color: #00b4d8;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: #0077b6;
+  }
+  
